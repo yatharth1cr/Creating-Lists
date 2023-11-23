@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+/* header  */
+header {
+  background-color: #f96116;
+  padding: 20px 0;
+}
+.justify-content {
+  justify-content: flex-start;
+}
+a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+/* section box  */
+section {
+  background-color: #c1b49a;
+  padding: 10px;
+}
+.box li {
+  color: #fff;
+  line-height: 2;
+}
+.square {
+  list-style-type: square;
+}
+.dics {
+  list-style-type: disc;
+}
+.box {
+  width: 200px;
+
+  padding: 40px 0;
+  margin-top: 50px;
+  padding-left: 60px;
+  background-color: #035878;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+ol {
+  list-style-type: decimal;
+}
+.check {
+  list-style-image: url(im.png);
+}
+/* section description */
+dl {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+dt {
+  font-size: 32px;
+  margin: 10px 0;
+}
+/* footer */
+footer {
+  background-color: rgb(95, 94, 94);
+  padding: 25px 0;
+}
